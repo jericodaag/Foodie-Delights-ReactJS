@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@media (max-width: 600px) {
+    .container {
+     padding: 20px;
+    }
+   }
+   
+body {
+ font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Raleway','Valera Round', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-family:'Montserrat', sans-serif;
+    }
+
+.label{
+    font-size: 16px;
+    color: #F78CA2; 
+    align-items: center;
+}
+
+.p{
+    color: #8EACCD; 
+}
+
+
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: .2s;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer; /* Add cursor pointer for better user experience */
+}
+
+.nav-item:hover {
+    background-color: #718E88;
+    color: #ffffff;
+    border-radius: 4px;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhance the box-shadow on hover */
+}
+
+.navbar-nav {
+    display: block;
+    margin: 0 auto;
+  }
+  
+
+.navbar-nav > li {
+    color: white;
+    display: inline-block;
+
+}
+
+
+.logo {
+    display: block;
+    margin: -12px auto; /* Center the logo horizontally */
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+   }
+   
+
+   .food-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   .join-now-btn {
+    background-color: #8DC63F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Varela Round', sans-serif;
+    
+   }
+   
+   .join-now-btn:hover {
+    background-color: #5a8f29; /* Darker green on hover */
+    color: white;
+    text-decoration: none;
+  }  
+  
+  .rating-origin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   .justified-text {
+    text-align: justify;
+   }
+
+   .bg-light {
+    background-color: #fefdfa !important; /* White background */
+    }
+       
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+        padding: 20px;
+        border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+        color: white; /* Text color */
+      }
+      
+    .rounded-section {
+        border-radius: 16px;
+        overflow: hidden;
+       }
+       
+
+       p {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 16px;
+       }
+
+       .outlined-text {
+        color: #fff; /* Set the text color to white */
+        background-clip: text; /* Clip the background to the text */
+        -webkit-background-clip: text; /* For older browsers */
+        background-size: 100% 100%;
+        background-image: linear-gradient(transparent 80%, #000 80%, #000); /* Create a gradient for the outline */
+      }
+      
+      .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+      }
+      
+      .ingredients {
+        font-family: 'Varela Round', sans-serif;
+       }
+       
+       .instructions {
+        font-family: 'Varela Round', sans-serif;
+       }
+       
+       .recipe-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       }
+       
